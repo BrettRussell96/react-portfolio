@@ -8,8 +8,8 @@ export default function Header() {
             </div>
             <nav id="headerNavbar">
                 <NavLink to={"/"}>Home</NavLink>
-                <NavLink to={"/"}>About</NavLink>
-                <NavLink to={"/"}>Skills</NavLink>
+                <NavLink to={"/about"}>About</NavLink>
+                <NavLink to={"/skills"}>Skills</NavLink>
                 <NavLink to={"/"}>Projects</NavLink>
             </nav>
         </header>
