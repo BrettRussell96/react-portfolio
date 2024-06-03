@@ -7,10 +7,10 @@ export default function Header() {
                 <h2>Brett Russell. Portfolio</h2>
             </div>
             <nav id="headerNavbar">
-                <NavLink to={"/"} className="">Home</NavLink>
-                <NavLink to={"/"} className="">About</NavLink>
-                <NavLink to={"/"} className="">Skills</NavLink>
-                <NavLink to={"/"} className="">Projects</NavLink>
+                <NavLink to={"/"}>Home</NavLink>
+                <NavLink to={"/"}>About</NavLink>
+                <NavLink to={"/"}>Skills</NavLink>
+                <NavLink to={"/"}>Projects</NavLink>
             </nav>
         </header>
     )
